@@ -11,15 +11,16 @@
 		height: 3em;
 	}
 }
-#logo {
-	max-width: 5.5em;
-	max-height: 5.5em;
-	float: left;
+
+@media (min-width: 576px){
+	#logo {
+		max-width: 5.5em;
+		max-height: 5.5em;
+		float: left;
+ 	}
  }
 
-#info{
-	float: right;
-}
+
 #name {
 	margin: 0;
 	float: right;
