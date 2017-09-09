@@ -4,43 +4,28 @@ h1,h2,h3{
 
 @media (min-width: 991px) {
 	.work {
-		width: 100%;
-		height: 170px;
-	}
-	.work-title {
-		width: 100%;
+		height: 180px;
 	}
 }
 
 @media (max-width: 990px) and (min-width: 680px) {
 	.work {
-		width: 50%;
 		height: 170px;
-	}
-	.work-title {
-		width: 50%;
 	}
 }
 
 @media (max-width: 679px) and (min-width: 419px) {
 	.work {
-		width: 50%;
 		height: 120px;
-	}
-	.work-title {
-		width: 50%;
 	}
 }
 
 @media (max-width: 418px) {
 	.work {
-		width: 100%;
 		height: 200px;
 	}
-	.work-title {
-		width: 100%;
-	}
 }
+
 
 @media (min-width: 576px){
 	#logo {
@@ -102,12 +87,7 @@ h1,h2,h3{
 	font-weight: lighter;
 }
 
-.work {
-	margin: 1.5em;
-}
-
 .work-title {
-	margin: 0 auto;
 	padding: .5em;
 	color: #2d3c49;
 	font-weight: 500;
