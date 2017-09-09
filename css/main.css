@@ -1,31 +1,10 @@
-h1,h2,h3{
+h1, h2, h3, footer{
 	text-align: center;
 }
 
-@media (min-width: 991px) {
-	.work {
-		height: 180px;
-	}
-}
-
-@media (max-width: 990px) and (min-width: 680px) {
-	.work {
-		height: 170px;
-	}
-}
-
-@media (max-width: 679px) and (min-width: 419px) {
-	.work {
-		height: 120px;
-	}
-}
-
-@media (max-width: 418px) {
-	.work {
-		height: 200px;
-	}
-}
-
+a:link, a:visited, a:hover, a:active {
+	color: #2d3c49;
+} 
 
 @media (min-width: 576px){
 	#logo {
@@ -49,6 +28,7 @@ h1,h2,h3{
 	}
 }
 
+
 #name {
 	margin: 0;
 	float: right;
@@ -60,7 +40,7 @@ h1,h2,h3{
 
 }
 
-#occupation {
+#details {
 	margin: 0;
 	float: right;
 	clear: right;
@@ -79,6 +59,15 @@ h1,h2,h3{
 	font-family: sans-serif;
 }
 
+#intro {
+	margin: 0;
+	height: 10%;
+	padding: .2em .5em;
+	color: #2d3c49;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+}
+
 #featured-title{
 	float: left;
 	color: #a0a0a5;
@@ -87,15 +76,18 @@ h1,h2,h3{
 	font-weight: lighter;
 }
 
+.work {
+	height: 245px;
+	/*in case the browser asigns a larger margin*/
+	margin: 0;
+	padding: 15px;
+	box-sizing: border-box;
+}
 .work-title {
-	padding: .5em;
+	margin: 0;
+	height: 10%;
+	padding: .2em .5em;
 	color: #2d3c49;
 	font-weight: 500;
 	font-family: 'Raleway', sans-serif;
-}
-
-#contact {
-	margin: 0 auto;
-	background-color: #eff1f4;
-	font-family: sans-serif;
 }
