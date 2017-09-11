@@ -32,20 +32,18 @@ a:link, a:visited, a:hover, a:active {
 #name {
 	margin: 0;
 	float: right;
-	font-weight: 100;
 	color: #2d3c49;
+	font: 100 2.3em 'Raleway', sans-serif;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
 }
 
 #details {
 	margin: 0;
 	float: right;
 	clear: right;
-	font-weight: lighter;
 	color: #2d3c49;
 	text-transform: uppercase;
-	font-family: sans-serif;
+	font: lighter 1em sans-serif;
 }
 
 #blog {
@@ -73,7 +71,7 @@ a:link, a:visited, a:hover, a:active {
 	font-weight: lighter;
 }
 
-.article-title {
+.essay-title {
 	margin: 6px auto;
 	padding: 0;
 	font-weight: 900;
