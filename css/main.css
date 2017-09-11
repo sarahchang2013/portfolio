@@ -4,7 +4,7 @@ h1, h2, h3, footer {
 
 a:link, a:visited, a:hover, a:active {
 	color: #2d3c49;
-} 
+}
 
 @media (min-width: 576px) {
 	#logo {
