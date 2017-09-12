@@ -1,7 +1,3 @@
-h1, h2, h3, footer {
-	text-align: center;
-}
-
 a:link, a:visited, a:hover, a:active {
 	color: #2d3c49;
 }
@@ -31,7 +27,7 @@ a:link, a:visited, a:hover, a:active {
 
 #name {
 	margin: 0;
-	float: right;
+	text-align: right;
 	color: #2d3c49;
 	font: 100 2.3em 'Raleway', sans-serif;
 	text-transform: uppercase;
@@ -39,18 +35,15 @@ a:link, a:visited, a:hover, a:active {
 
 #details {
 	margin: 0;
-	float: right;
-	clear: right;
+	text-align: right;
 	color: #2d3c49;
 	text-transform: uppercase;
 	font: lighter 1em sans-serif;
 }
 
 #blog {
-	border-style: solid;
-	border-color: #7d97ad transparent transparent transparent;
-	border-top-width: .3em;
-	background-color: #eff1f4;
+	border-top: .3em solid #7d97ad;
+	background: #eff1f4;
 	font-family: sans-serif;
 }
 
@@ -59,24 +52,21 @@ a:link, a:visited, a:hover, a:active {
 	height: 10%;
 	padding: .2em .5em;
 	color: #2d3c49;
-	font-weight: 800;
-	font-family: 'Raleway', sans-serif;
+	font: 800 1em 'Raleway', sans-serif;
 }
 
 #featured-title {
-	float: left;
+	text-align: left;
 	color: #a0a0a5;
-	font-family: sans-serif;
-	font-size: 2em;
-	font-weight: lighter;
+	font: lighter 2em sans-serif;
 }
 
 .essay-title {
+	text-align: center;
 	margin: 6px auto;
 	padding: 0;
-	font-weight: 900;
 	color: #2d3c49;
-	font-family: 'Raleway', sans-serif;
+	font: 900 1.2em 'Raleway', sans-serif;
 }
 
 article {
@@ -98,10 +88,10 @@ article {
 }
 
 .work-title {
+	text-align: center;
 	margin: 0;
 	height: 10%;
 	padding: .2em .5em;
 	color: #2d3c49;
-	font-weight: 500;
-	font-family: 'Raleway', sans-serif;
+	font: 500 1.2em 'Raleway', sans-serif;
 }
