@@ -41,6 +41,12 @@ a:link, a:visited, a:hover, a:active {
 	font: lighter 1em sans-serif;
 }
 
+#thanks {
+	font: lighter 1.5em 'Caveat', cursive;
+	text-align: center;
+	margin: 0;
+}
+
 #blog {
 	border-top: .3em solid #7d97ad;
 	background: #eff1f4;
