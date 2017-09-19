@@ -45,7 +45,7 @@ a:link, a:visited, a:hover, a:active {
 #featured-title {
 	text-align: left;
 	color: #a0a0a5;
-	font: lighter 2em sans-serif;
+	font: lighter 1.6em sans-serif;
 }
 
 .essay-title {
@@ -90,13 +90,26 @@ article {
  	}
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575px) and (min-width: 387px) {
 	#logo {
 		max-width: 2.5em;
 		max-height: 2.5em;
  	}
 
  	#name {
- 		font-size: 1.5em;
+ 		font-size: 2.5em;
+ 	}
+}
+
+@media (max-width: 386px) {
+	#logo {
+		max-width: 2.5em;
+		max-height: 2.5em;
+		margin: 2em auto auto 1em;
+ 	}
+
+ 	#name {
+ 		margin: auto 1em auto auto;
+ 		font-size: 2.5em;
  	}
 }
